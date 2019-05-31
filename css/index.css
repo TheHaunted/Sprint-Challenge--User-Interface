@@ -206,10 +206,17 @@ footer nav a {
     background: dodgerblue;
 }
 
+.about {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+}
+
 .box-container {
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
+    /* width: 100%; */
 }
 
 .content-box {
@@ -217,4 +224,26 @@ footer nav a {
     flex-wrap: column;
     flex-wrap: wrap;
     width: 48%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    /* padding: 20px; */
+    /* margin-right: 20px; */
+}
+
+button {
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+.work-together {
+    padding: 30px;
 }
