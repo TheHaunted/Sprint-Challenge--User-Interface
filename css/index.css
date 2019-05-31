@@ -152,7 +152,8 @@ footer nav a {
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 35px;
-    align-items: center;
+    align-items: flex-end;
+    padding-right: 60px;
     /* width: 100%; */
 }
 
@@ -246,4 +247,8 @@ button a {
 
 .work-together {
     padding: 30px;
+}
+
+.box-img {
+    margin-bottom: 15px;
 }
