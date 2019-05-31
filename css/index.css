@@ -223,9 +223,9 @@ footer nav a {
     display: flex;
     flex-wrap: column;
     flex-wrap: wrap;
-    width: 48%;
+    width: 370px;
     border-bottom: 1px dashed black;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;;
     padding-bottom: 15px;
     /* padding: 20px; */
     /* margin-right: 20px; */
